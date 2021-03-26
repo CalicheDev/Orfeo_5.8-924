@@ -1,0 +1,87 @@
+****************************************************************************************************************************************************
+*                                                                 Cambios de Orfeo58								   *
+****************************************************************************************************************************************************
+
+- Automatización del reinicio de secuencias y creación de la bodega a medida que cambia el año, esto se configuro para que se ejecutara todos los 
+primeros de enero del correspondiente año. 
+
+- Se crea módulo de roles y permisos, el cual se divide en 3 submodulos (Administración roles, permisos y tipos documentales) : “Roles” donde se 
+permite crear, activar o inactivar. “Permisos de acceso” este permite asignar  a cada uno de los roles permisos de acceso a los módulos, “Permisos 
+tipos documentales” permite asignar a cada uno de los roles permisos de consulta a los tipos documentales.
+
+- Se modifica el módulo de usuarios, agregando la opción de roles y así mismo se deja una opción que permite cambiar los permisos únicamente de 
+usuario en especifico.
+
+- Se crea estadística, que permite generar un reporte por rol tanto de accesos al sistema como de accesos a tipos documentales.
+
+- Se realiza una reestructuración del formulario de agregar usuario, permitiendo efectuar menos pasos, agregando validaciones de botones, e ingreso 
+de la información, campos obligatorios según el tipo de cliente que se carga.
+
+- Se cambia el formulario que muestra los permisos de acceso al sistema por usuario, adicional se crea un permiso que permite descargar o no los 
+documentos pdf que se carguen en el sistema (anexos o imagen principal).
+
+- Se crea un visor interno para la visualización de los documentos PDF, con esto se agrega una restricción al sistema para que no permita acceder a 
+las rutas de la bodega. Se asocia este visor a las opciones de anexos, expedientes y consultas.
+
+- Se modifico el formulario de radicación para que permita asignar la TRD desde la misma radicación del documento. Esto incluye tambien asignación 
+de la TRD a cada uno de los anexos que se carguen en el sistema.
+
+- Se modifican las alertas de correo electrónico, para que desde la misma creación del radicado se pueda notificar a diferentes dependencias y 
+diferentes usuarios como  sea en caso.
+
+- TRDs trasversales para entidades publicas y privadas.
+
+- Se modifica la información que se muestra o los datos a los que se les realiza una combinación de correspondencia, ya que se agrega un nuevo 
+formato para la fecha de radicación, la dependencia que radica, visto bueno del documento, sigla de la empresa de la que implementa el sistema.
+
+- En el archivo de configuración se agrega variable que permita definir la construcción de los radicados (año, año mes, año mes día), y así mismo 
+la inserción en la base de datos para todos el sistema funcionara correctamente teniendo en cuenta esta estructura.
+
+- Inclusión de radicados de forma masiva en expediente virtuales y trazabilidad de la inclusión de los mismos, en la información que se guarda de 
+la trazabilidad se muestra el nombre que se le aplico a cada uno de los expedientes.
+
+- Modificación de la base de datos para aceptar las nuevas variables de configuración y datos nuevos para realizar la combinación de correspondencia como también modificación en la creación de los expedientes teniendo presente la asignación de la TRD.
+
+- Actualización de los manuales del sistema, segregándolo por módulo.
+
+
+***************************************************************************************************************************************************
+* 						Cambios de Orfeo5 respecto a versiones anteriores.						  *
+***************************************************************************************************************************************************
+
+- Se agrega para el tratamiento de datos, visualización de imagen principal en el mismo iframe, modificaciones en alertas de radicados vencidos y 
+compatibilidad con postgresql, mariadb y sqlserver.
+
+- Se modifica el formulario de radicación, en el que se disminuyen los pasos que debe realizar para la radicación de un documento, adicional a esto 
+se mejora la distribución del mismos para que fuera secuencial el diligenciamiento del mismo. 
+
+- Cambio completo de look and feel, redistribución de menús y módulos del sistema. El menú de transacciones se actualizó para ligarlos directamente 
+a cada uno de los permisos de los módulos, si se cuenta con el permiso se muestra de lo contrario no. 
+
+- En todas las vistas se incluyeron las hojas de estilos usando la variable "ruta_raiz" que tiene cada archivo y la variable se sesión 
+"ESTILOS_PATH_ORFEO".
+
+- Estructuración de base de datos, en este punto se modifico el tipo de dato de los radicados para que aceptara caracteres, adicional se amplia la 
+longitud de los radicados para que estos aceptaran máximo 15 dígitos incluidos caracteres alfanuméricos.
+
+- El archivo de configuración config.php se agregaron las variables: imagenes2: directorio de imágenes nuevas para orfeo 5, logoSuperiorOrfeo: 
+booleano para activar o desactivar el logo de la entidad.
+
+- El archivo de configuración config.php se agrega variable que permite indicar la dependencia responsable de tramitar las PQRs, longitud de los 
+códigos de las dependencias, tipo de radicado asignado para las Pqrs.
+
+- Se agrega librerías de  bootstrap y en el archivo de configuración se agrega variable para el control de la misma (ESTILOS_PATH_ORFEO): Ruta 
+completa de la hoja de estilos a usar(permite cambiar el nombre de la hoja de estilos a usar, antes estaba en código limitado a que el nombre de la 
+hoja css era siempre orfeo.css).
+
+- Se crearon nuevas variables para las rutas y no se usaron las anteriores para poder editar el sistema cargando css viejos y nuevos al mismo tiempo, facilitando la actualización de lo que era necesario, (se conservaron algunos estilos). 
+
+- La hoja de estilos principal continua en estilos/orfeo.css, tiene los estilos nuevos y los que se consideraron conservar, no todos se usan y en 
+algunos casos fue necesario sobre escribir estilos para adaptar casos específicos.
+
+- Para que los tooltips de bootstrap funcionen, es necesario jquery, los js de bootstrap e inicializar esta función al final del archivo, (ejemplo 
+simple: orfeo5/envios/cuerpoEnvioNormal.php) 
+
+- Se corrigieron problemas con las rutas de la librería usada para generar el menú de fechas (spiffyCal_v2_1.js), si la vista desde la que se llama 
+librería no esta en el directorio raíz, antes de dibujar los calendarios, debe establecer la ruta raíz de esta agregando en código javascript la 
+funcion setRutaRaiz ejemplo :  "setRutaRaiz(..);" , "setRutaRaiz(../..);" nótese que no lleva barra inclinada al final. 

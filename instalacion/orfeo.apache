@@ -1,0 +1,29 @@
+# 
+# Configuracion de Apache para restringir listado
+#
+#   by Jaime E. Gomez (jgomez@skinatech.com)
+#
+# Copie este archivo como /etc/apache2/conf.d/orfeo despues de ajustarlo a su URL correcta
+#
+
+
+Alias /orfeo /var/www/html/orfeo
+
+<Directory /var/www/html/orfeo>
+    Options FollowSymLinks MultiViews
+    Options -Indexes 
+    AllowOverride None
+    Order allow,deny
+    allow from all
+</Directory>
+
+
+# Alias /pruebas /var/www/pruebas
+
+# <Directory /var/www/pruebas>
+#     Options FollowSymLinks MultiViews
+#     Options -Indexes
+#     AllowOverride None
+#     Order allow,deny
+#     allow from all
+# </Directory>

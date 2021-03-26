@@ -1,0 +1,561 @@
+Código tipo documental;Nombre del tipo documental;Días de termino;Aplica para radicado salida;Aplica para radicado entrada;Estado tipo documental;Aplica para radicado de PQR;Mostrar en formulario;
+1;Acta;15;1;1;ACTIVO;0;1;1
+2;Acta aclaratoria al número de radicado;15;1;1;ACTIVO;0;1;2
+3;Acta aprobación póliza;15;1;1;ACTIVO;0;1;3
+4;Acta audiencia aclaración de pliegos y de riesgos;15;1;1;ACTIVO;0;1;4
+5;Acta de apertura ;15;1;1;ACTIVO;0;1;5
+6;Acta de apertura de ofertas;15;1;1;ACTIVO;0;1;6
+7;Acta de audiencia de aclaración de pliegos de riesgos;15;1;1;ACTIVO;0;1;7
+8;Acta de audiencia de adjudicación ;15;1;1;ACTIVO;0;1;8
+9;Acta de avance;15;1;1;ACTIVO;0;1;9
+10;Acta de calificación de proveedor;15;1;1;ACTIVO;0;1;10
+11;Acta de cierre;15;1;1;ACTIVO;0;1;11
+12;Acta de cierre expediente contractual;15;1;1;ACTIVO;0;1;12
+13;Acta de cierre inscripciones;15;1;1;ACTIVO;0;1;13
+14;Acta de escrutinio general;15;1;1;ACTIVO;0;1;14
+15;Acta de escrutinio general de la comisión escrutadora;15;1;1;ACTIVO;0;1;15
+16;Acta de escrutinio parcial ;15;1;1;ACTIVO;0;1;16
+17;Acta de evaluación de ofertas;15;1;1;ACTIVO;0;1;17
+18;Acta de grado general;15;1;1;ACTIVO;0;1;18
+19;Acta de inicio;15;1;1;ACTIVO;0;1;19
+20;Acta de inicio y finalización;15;1;1;ACTIVO;0;1;20
+21;Acta de inicio del contrato;15;1;1;ACTIVO;0;1;21
+22;Acta de inscripción por cada aspirante;15;1;1;ACTIVO;0;1;22
+23;Acta de instalación de jurados y delegados, comité de veeduría, comisión escrutadora;15;1;1;ACTIVO;0;1;23
+24;Acta de la reunión ;15;1;1;ACTIVO;0;1;24
+25;Acta de liquidación ;15;1;1;ACTIVO;0;1;25
+26;Acta de posesión;15;1;1;ACTIVO;0;1;26
+27;Acta de recepción de ofertas;15;1;1;ACTIVO;0;1;27
+28;Acta de recibido a satisfacción;15;1;1;ACTIVO;0;1;28
+29;Acta de reemplazo de jurados;15;1;1;ACTIVO;0;1;29
+30;Acta de reemplazo de jurados electorales;15;1;1;ACTIVO;0;1;30
+31;Acta de reunión comité proceso electoral;15;1;1;ACTIVO;0;1;31
+32;Acta de selección;15;1;1;ACTIVO;0;1;32
+33;Acta eliminación de documentos;15;1;1;ACTIVO;0;1;33
+34;Acta escrutinio parcial;15;1;1;ACTIVO;0;1;34
+35;Acta evaluación;15;1;1;ACTIVO;0;1;35
+36;Acta posesión;15;1;1;ACTIVO;0;1;36
+37;Acta recepción de ofertas;15;1;1;ACTIVO;0;1;37
+38;Acta recibido a satisfacción;15;1;1;ACTIVO;0;1;38
+39;Actas de avance;15;1;1;ACTIVO;0;1;39
+40;Actas del comité curricular;15;1;1;ACTIVO;0;1;40
+41;Acto administrativo de adjudicación ;15;1;1;ACTIVO;0;1;41
+42;Acto administrativo de aprobación;15;1;1;ACTIVO;0;1;42
+43;Acto administrativo de aprobación y plan operativo anual de inversiones ;15;1;1;ACTIVO;0;1;43
+44;Acto administrativo de conformación de la terna al consejo directivo ;15;1;1;ACTIVO;0;1;44
+45;Acto administrativo de expedición ;15;1;1;ACTIVO;0;1;45
+46;Acto administrativo de justificación de contratación;15;1;1;ACTIVO;0;1;46
+47;Actos administrativos ;15;1;1;ACTIVO;0;1;47
+48;Actos administrativos de modificación ;15;1;1;ACTIVO;0;1;48
+49;Acto administrativo de aprobación de las trd;15;1;1;ACTIVO;0;1;49
+50;Acuerdo académico;15;1;1;ACTIVO;0;1;50
+51;Acuerdo de designación del rector por el consejo directivo;15;1;1;ACTIVO;0;1;51
+52;Acuerdo de monitoria ;15;1;1;ACTIVO;0;1;52
+53;Acuerdo de negociación;15;1;1;ACTIVO;0;1;53
+54;Acuerdo directivo;15;1;1;ACTIVO;0;1;54
+55;Acuerdo directivo para convocar al proceso de designación del rector;15;1;1;ACTIVO;0;1;55
+56;Acuerdos de nivel del servicio;15;1;1;ACTIVO;0;1;56
+57;Adenda;15;1;1;ACTIVO;0;1;57
+58;Adiciones y prorrogas;15;1;1;ACTIVO;0;1;58
+59;Afiches ;15;1;1;ACTIVO;0;1;59
+60;Afiliación salud y caja de compensación;15;1;1;ACTIVO;0;1;60
+61;Análisis del sector;15;1;1;ACTIVO;0;1;61
+62;Análisis resultados plan indicativo;15;1;1;ACTIVO;0;1;62
+63;Anexos;15;1;1;ACTIVO;0;1;63
+64;Anexos al trámite del proceso;15;1;1;ACTIVO;0;1;64
+65;Anexos cuando hacen parte integral del mismo;15;1;1;ACTIVO;0;1;65
+66;Anexos de publicación y otros;15;1;1;ACTIVO;0;1;66
+67;Anexos sustentan el informe si existen;15;1;1;ACTIVO;0;1;67
+68;Apertura del proceso;15;1;1;ACTIVO;0;1;68
+69;Asignación académica ;15;1;1;ACTIVO;0;1;69
+70;Auto de admisión de la demanda;15;1;1;ACTIVO;0;1;70
+71;Auto de admisión de recurso;15;1;1;ACTIVO;0;1;71
+72;Auto de apertura de indagación preliminar;15;1;1;ACTIVO;0;1;72
+73;Auto de apertura de investigación disciplinaria ;15;1;1;ACTIVO;0;1;73
+74;Auto de cierre de investigación disciplinaria ;15;1;1;ACTIVO;0;1;74
+75;Auto de formulación de cargos disciplinarios;15;1;1;ACTIVO;0;1;75
+76;Auto de resolución de recurso;15;1;1;ACTIVO;0;1;76
+77;Auto de traslado para alegatos de conclusión ;15;1;1;ACTIVO;0;1;77
+78;Auto decretando pruebas;15;1;1;ACTIVO;0;1;78
+79;Auto notificación por el juzgado;15;1;1;ACTIVO;0;1;79
+80;Autorización ajuste datos si;15;1;1;ACTIVO;0;1;80
+81;Aviso de aprobación plan de mejoramiento;15;1;1;ACTIVO;0;1;81
+82;Aviso de convocatoria;15;1;1;ACTIVO;0;1;82
+83;Aviso de la auditoría;15;1;1;ACTIVO;0;1;83
+84;Backup información institucional ;15;1;1;ACTIVO;0;1;84
+85;Banco terminológico de series y subseries documentales;15;1;1;ACTIVO;0;1;85
+86;Bitácora de indisponibilidad de servicios ;15;1;1;ACTIVO;0;1;86
+87;Bitácora de servicios;15;1;1;ACTIVO;0;1;87
+88;Bitácora de sistemas de información ;15;1;1;ACTIVO;0;1;88
+89;Boletines institucionales de prensa;15;1;1;ACTIVO;0;1;89
+90;Boletines internos ;15;1;1;ACTIVO;0;1;90
+91;Boletines sobre noticias o contenidos para la página web;15;1;1;ACTIVO;0;1;91
+92;Bonificación por servicios prestados;15;1;1;ACTIVO;0;1;92
+93;Borrador de pliegos;15;1;1;ACTIVO;0;1;93
+94;Brochure de oferta educativa ;15;1;1;ACTIVO;0;1;94
+95;Capacitación usuarios finales ;15;1;1;ACTIVO;0;1;95
+96;Capacitaciones ;15;1;1;ACTIVO;0;1;96
+97;Carta banco;15;1;1;ACTIVO;0;1;97
+98;Carta de motivación de la universidad de destino;15;1;1;ACTIVO;0;1;98
+99;Catálogo de servicios;15;1;1;ACTIVO;0;1;99
+100;Catálogo de sistemas de información ;15;1;1;ACTIVO;0;1;100
+101;Cdp;15;1;1;ACTIVO;0;1;101
+102;Cédula;15;1;1;ACTIVO;0;1;102
+103;Certificado de antecedentes;15;1;1;ACTIVO;0;1;103
+104;Certificado de convalidación de las trd;15;1;1;ACTIVO;0;1;104
+105;Certificado de inscripción en el registro único de series documentales;15;1;1;ACTIVO;0;1;105
+106;Certificado de publicación en la web;15;1;1;ACTIVO;0;1;106
+107;Certificado inexistencia de personal;15;1;1;ACTIVO;0;1;107
+108;Certificados de antecedentes;15;1;1;ACTIVO;0;1;108
+109;Comprobante de inscripción ;15;1;1;ACTIVO;0;1;109
+110;Comunicación de aceptación de la oferta;15;1;1;ACTIVO;0;1;110
+111;Comunicación oficial de notificación auditoría interna ;15;1;1;ACTIVO;0;1;111
+112;Comunicaciones;15;1;1;ACTIVO;0;1;112
+113;Comunicaciones de celebración convenio;15;1;1;ACTIVO;0;1;113
+114;Comunicaciones de entrega de información;15;1;1;ACTIVO;0;1;114
+115;Comunicaciones oficiales;15;1;1;ACTIVO;0;1;115
+116;Concepto jurídico;15;1;1;ACTIVO;0;1;116
+117;Conceptos técnicos;15;1;1;ACTIVO;0;1;117
+118;Conferencias de prensa;15;1;1;ACTIVO;0;1;118
+119;Consolidación de los datos consignados en las actas parciales de escrutinio de las mesas;15;1;1;ACTIVO;0;1;119
+120;Consolidado general mesas de votación;15;1;1;ACTIVO;0;1;120
+121;Consolidado asignación académica institucional;15;1;1;ACTIVO;0;1;121
+122;Constancias de estudio;15;1;1;ACTIVO;0;1;122
+123;Constancias laborales;15;1;1;ACTIVO;0;1;123
+124;Contestación;15;1;1;ACTIVO;0;1;124
+125;Contestación de la demanda;15;1;1;ACTIVO;0;1;125
+126;Contestación del recurso;15;1;1;ACTIVO;0;1;126
+127;Contrato;15;1;1;ACTIVO;0;1;127
+128;Contrato docencia hora cátedra;15;1;1;ACTIVO;0;1;128
+129;Contratos de consultoría;15;1;1;ACTIVO;0;1;129
+130;Control de préstamo y consulta de documentos;15;1;1;ACTIVO;0;1;130
+131;Control llaves;15;1;1;ACTIVO;0;1;131
+132;Control resguardo copias de seguridad;15;1;1;ACTIVO;0;1;132
+133;Convenio ;15;1;1;ACTIVO;0;1;133
+134;Convenios nacionales e internacionales;15;1;1;ACTIVO;0;1;134
+135;Convocatoria;15;1;1;ACTIVO;0;1;135
+136;Convocatoria docentes;15;1;1;ACTIVO;0;1;136
+137;Copia inventario físico;15;1;1;ACTIVO;0;1;137
+138;Copia resolución convocación a elección representantes;15;1;1;ACTIVO;0;1;138
+139;Copia resolución de rectoría;15;1;1;ACTIVO;0;1;139
+140;Cronograma de transferencias documentales primarias ;15;1;1;ACTIVO;0;1;140
+141;Cronograma de actividades;15;1;1;ACTIVO;0;1;141
+142;Cuadro de clasificación documental ;15;1;1;ACTIVO;0;1;142
+143;Cuadro seguimiento a las pqr - excel;15;1;1;ACTIVO;0;1;143
+144;Declaración  de residencia;15;1;1;ACTIVO;0;1;144
+145;Decreto o aporte de pruebas ;15;1;1;ACTIVO;0;1;145
+146;Definición de requerimientos;15;1;1;ACTIVO;0;1;146
+147;Demanda;15;1;1;ACTIVO;0;1;147
+148;Denuncio o escritura pública, según el caso;15;1;1;ACTIVO;0;1;148
+149;Derecho de contradicción y soportes;15;1;1;ACTIVO;0;1;149
+150;Descuentos;15;1;1;ACTIVO;0;1;150
+151;Designación comité evaluador;15;1;1;ACTIVO;0;1;151
+152;Designación de supervisión;15;1;1;ACTIVO;0;1;152
+153;Designación del comité evaluador;15;1;1;ACTIVO;0;1;153
+154;Documento de descargos;15;1;1;ACTIVO;0;1;154
+155;Documento hoja de vida;15;1;1;ACTIVO;0;1;155
+156;Documentos de alegatos de conclusión;15;1;1;ACTIVO;0;1;156
+157;Documentos de identificación de los estudiantes ;15;1;1;ACTIVO;0;1;157
+158;Documentos del arrendatario;15;1;1;ACTIVO;0;1;158
+159;Documentos que evidencias seguimiento y ejecución ;15;1;1;ACTIVO;0;1;159
+160;Documentos que evidencien las situaciones administrativas del funcionario;15;1;1;ACTIVO;0;1;160
+161;Documentos que evidencien su ejecución;15;1;1;ACTIVO;0;1;161
+162;Documentos requeridos por la queja ;15;1;1;ACTIVO;1;1;162
+163;Embargos;15;1;1;ACTIVO;0;1;163
+164;Encuesta de evaluación de actividades;15;1;1;ACTIVO;0;1;164
+165;Encuesta de necesidades;15;1;1;ACTIVO;0;1;165
+166;Entrega de elementos de protección personal;15;1;1;ACTIVO;0;1;166
+167;Entrega de hardware;15;1;1;ACTIVO;0;1;167
+168;Entrega sala de informática ;15;1;1;ACTIVO;0;1;168
+169;Escrito de recurso;15;1;1;ACTIVO;0;1;169
+170;Estudio del sector;15;1;1;ACTIVO;0;1;170
+171;Estudios previos;15;1;1;ACTIVO;0;1;171
+172;Evaluación de desempeño y hoja de testigo de las evidencias;15;1;1;ACTIVO;0;1;172
+173;Evaluación de la hoja de vida;15;1;1;ACTIVO;0;1;173
+174;Inventario documental ;15;1;1;ACTIVO;0;1;174
+175;Evidencias avance o cumplimiento del plan de mejoramiento;15;1;1;ACTIVO;0;1;175
+176;Evidencia de ejecución y seguimiento;15;1;1;ACTIVO;0;1;176
+177;Examen médico;15;1;1;ACTIVO;0;1;177
+178;Exámenes médicos;15;1;1;ACTIVO;0;1;178
+179;Felicitaciones;15;0;1;ACTIVO;1;1;179
+180;Fallo de primera instancia;15;1;1;ACTIVO;0;1;180
+181;Fallo de segunda instancia;15;1;1;ACTIVO;0;1;181
+182;Ficha de caracterización de indicadores ;15;1;1;ACTIVO;0;1;182
+183;Ficha proyecto de oferta educativa ;15;1;1;ACTIVO;0;1;183
+184;Ficha técnica bpiu ;15;1;1;ACTIVO;0;1;184
+185;Folletos ;15;1;1;ACTIVO;0;1;185
+186;Formato único de hoja de vida;15;1;1;ACTIVO;0;1;186
+187;Formulario de inscripción diligenciado de la universidad de destino;15;1;1;ACTIVO;0;1;187
+188;Fotocopia cédula;15;1;1;ACTIVO;0;1;188
+189;Fotografías ;15;1;1;ACTIVO;0;1;189
+190;Hoja de vida entregada por el funcionario o  docente;15;1;1;ACTIVO;0;1;190
+191;Hoja de vida equipo de cómputo;15;1;1;ACTIVO;0;1;191
+192;Hoja de vida que entrega el docente;15;1;1;ACTIVO;0;1;192
+193;Incapacidades;15;1;1;ACTIVO;0;1;193
+194;Informe;15;1;1;ACTIVO;0;1;194
+195;Informe a los organismos de control;15;1;1;ACTIVO;0;1;195
+196;Informe a otras entidades;15;1;1;ACTIVO;0;1;196
+197;Informe al organismo de control;15;1;1;ACTIVO;0;1;197
+198;Informe de administración del riesgo;15;1;1;ACTIVO;0;1;198
+199;Informe de aplicación y seguimiento;15;1;1;ACTIVO;0;1;199
+200;Informe de auditoría al sistema de gestión de calidad;15;1;1;ACTIVO;0;1;200
+201;Informe de auditorías internas ;15;1;1;ACTIVO;0;1;201
+202;Informe de ausentismo;15;1;1;ACTIVO;0;1;202
+203;Informe de caja menor;15;1;1;ACTIVO;0;1;203
+204;Informe de caja principal;15;1;1;ACTIVO;0;1;204
+205;Informe de control interno al departamento administrativo de la función pública ;15;1;1;ACTIVO;0;1;205
+206;Informe de derechos de autor ;15;1;1;ACTIVO;0;1;206
+207;Informe de ejecución del plan de desarrollo ;15;1;1;ACTIVO;0;1;207
+208;Informe de evaluación audiencia de rendición de cuentas ;15;1;1;ACTIVO;0;1;208
+209;Informe de gestión;15;1;1;ACTIVO;0;1;209
+210;Informe de gestión de información ;15;1;1;ACTIVO;0;1;210
+211;Informe de gestión de la dependencia;15;1;1;ACTIVO;0;1;211
+212;Informe de seguimiento a las pqr;15;1;1;ACTIVO;0;1;212
+213;Informe de seguimiento y evaluación a su ejecución ;15;1;1;ACTIVO;0;1;213
+214;Informe de servicios tecnológicos;15;1;1;ACTIVO;0;1;214
+215;Informe de sistemas de información ;15;1;1;ACTIVO;0;1;215
+216;Informe de supervisión;15;1;1;ACTIVO;0;1;216
+217;Informe definitivo;15;1;1;ACTIVO;0;1;217
+218;Informe del contratista;15;1;1;ACTIVO;0;1;218
+219;Informe evaluación del sistema de control interno contable a la contaduría general;15;1;1;ACTIVO;0;1;219
+220;Informe evaluación gestión por dependencias ;15;1;1;ACTIVO;0;1;220
+221;Informe final;15;1;1;ACTIVO;0;1;221
+222;Informe inventario de hardware;15;1;1;ACTIVO;0;1;222
+223;Informe inventario de licencias;15;1;1;ACTIVO;0;1;223
+224;Informe obsolescencia ;15;1;1;ACTIVO;0;1;224
+225;Informe pormenorizado del estado de control interno;15;1;1;ACTIVO;0;1;225
+226;Informe preliminar;15;1;1;ACTIVO;0;1;226
+227;Informe registro de actividades ;15;1;1;ACTIVO;0;1;227
+228;419;15;1;1;ACTIVO;0;1;228
+229;Informe seguimiento al plan de anticorrupción y de atención al ciudadano;15;1;1;ACTIVO;0;1;229
+230;Informe soporte técnico;15;1;1;ACTIVO;0;1;230
+231;Informe trimestrales de seguimiento al modelo integrado de planeación y control – mipg;15;1;1;ACTIVO;0;1;231
+232;Informe uso y apropiación de ti;15;1;1;ACTIVO;0;1;232
+233;Informes de evaluación y seguimiento a su ejecución;15;1;1;ACTIVO;0;1;233
+234;Informes de seguimiento a su ejecución;15;1;1;ACTIVO;0;1;234
+235;Informes de supervisión;15;1;1;ACTIVO;0;1;235
+236;Informes estadísticos de morbilidad, accidentalidad y medicina preventiva;15;1;1;ACTIVO;0;1;236
+237;Ingreso y salida para funcionario y docentes tiempo completo – dtc.;15;1;1;ACTIVO;0;1;237
+238;Inscripción de aspirantes al cargo de rector;15;1;1;ACTIVO;0;1;238
+239;Inspección a extintores;15;1;1;ACTIVO;0;1;239
+240;Inspección general ;15;1;1;ACTIVO;0;1;240
+241;Instalación comité proceso electoral ;15;1;1;ACTIVO;0;1;241
+242;Instalación de delegados;15;1;1;ACTIVO;0;1;242
+243;Instalación de jurados;15;1;1;ACTIVO;0;1;243
+244;Instructivos ;15;1;1;ACTIVO;0;1;244
+245;Interposición de recursos;15;1;1;ACTIVO;0;1;245
+246;Inventario;15;1;1;ACTIVO;0;1;246
+247;Inventario de servidores ;15;1;1;ACTIVO;0;1;247
+248;Inventario del local   ;15;1;1;ACTIVO;0;1;248
+249;Inventario documental;15;1;1;ACTIVO;0;1;249
+250;Inventario documental de transferencias primarias. ;15;1;1;ACTIVO;0;1;250
+251;Inventario único documental;15;1;1;ACTIVO;0;1;251
+252;Investigación de accidentes e incidentes ;15;1;1;ACTIVO;0;1;252
+253;Invitación;15;1;1;ACTIVO;0;1;253
+254;Libro;15;1;1;ACTIVO;0;1;254
+255;Licencias de software ;15;1;1;ACTIVO;0;1;255
+256;Liquidación contrato;15;1;1;ACTIVO;0;1;256
+257;Liquidación de cesantias;15;1;1;ACTIVO;0;1;257
+258;Liquidación de nómina docente tiempo completo;15;1;1;ACTIVO;0;1;258
+259;Liquidación de nóminas administrativa;15;1;1;ACTIVO;0;1;259
+260;Liquidación de nómina docente tiempo completo ocasional;15;1;1;ACTIVO;0;1;260
+261;Liquidación prima de navidad;15;1;1;ACTIVO;0;1;261
+262;Liquidación prima de servicios;15;1;1;ACTIVO;0;1;262
+263;Lista de asistencia;15;1;1;ACTIVO;0;1;263
+264;Lista de chequeo elementos de protección personal;15;1;1;ACTIVO;0;1;264
+265;Lista de participantes;15;1;1;ACTIVO;0;1;265
+266;Lista de verificación y seguimiento a los archivos de gestión;15;1;1;ACTIVO;0;1;266
+267;Lista verificación auditoría;15;1;1;ACTIVO;0;1;267
+268;Listado de oferentes admitidos ;15;1;1;ACTIVO;0;1;268
+269;Listado de pagos de desplazamiento ;15;1;1;ACTIVO;0;1;269
+270;Listado de pensionados ;15;1;1;ACTIVO;0;1;270
+271;Listado de sufragantes;15;1;1;ACTIVO;0;1;271
+272;Listado maestro de documentos y registros;15;1;1;ACTIVO;0;1;272
+273;Listado oficial de participantes;15;1;1;ACTIVO;0;1;273
+274;Listado oficial de votantes por cada mesa;15;1;1;ACTIVO;0;1;274
+275;Macroproyecto;15;1;1;ACTIVO;0;1;275
+276;Manifestaciones de interés;15;1;1;ACTIVO;0;1;276
+277;Mantenimiento preventivo ;15;1;1;ACTIVO;0;1;277
+278;Manual ;15;1;1;ACTIVO;0;1;278
+279;Manual de comunicaciones ;15;1;1;ACTIVO;0;1;279
+280;Manual de contratación;15;1;1;ACTIVO;0;1;280
+281;Manual de imagen corporativa;15;1;1;ACTIVO;0;1;281
+282;Manual de supervisión e interventoria;15;1;1;ACTIVO;0;1;282
+283;Manual del programa de gestión documental;15;1;1;ACTIVO;0;1;283
+284;Manual específico de funciones y competencias laborales;15;1;1;ACTIVO;0;1;284
+285;Manuales de procesos y procedimientos  ;15;1;1;ACTIVO;0;1;285
+286;Manuales e instructivos ;15;1;1;ACTIVO;0;1;286
+287;Matriz de riesgos;15;1;1;ACTIVO;0;1;287
+288;Memorando de notificación publicación web;15;1;1;ACTIVO;0;1;288
+289;Nómina definitiva;15;1;1;ACTIVO;0;1;289
+290;Normograma ;15;1;1;ACTIVO;0;1;290
+291;Nota de estilo;15;1;1;ACTIVO;0;1;291
+292;Notificación del recurso;15;1;1;ACTIVO;0;1;292
+293;Novedades;15;1;1;ACTIVO;0;1;293
+294;Novedades del mes ;15;1;1;ACTIVO;0;1;294
+295;Observación y aclaración a la evaluación;15;1;1;ACTIVO;0;1;295
+296;Observaciones y aclaraciones a los borradores;15;1;1;ACTIVO;0;1;296
+297;Observaciones y aclaraciones a los pliegos definitivos ;15;1;1;ACTIVO;0;1;297
+298;Observaciones y aclaradores a los borradores;15;1;1;ACTIVO;0;1;298
+299;Ocp;15;1;1;ACTIVO;0;1;299
+300;Oferta y documentos legales;15;1;1;ACTIVO;0;1;300
+301;Oficios de seguimiento en el aplicativo de radicación de las comunicaciones;15;1;1;ACTIVO;0;1;301
+302;Otros actos administrativos;15;1;1;ACTIVO;0;1;302
+303;Pago de retroactivos;15;1;1;ACTIVO;0;1;303
+304;Paz y salvo ;15;1;1;ACTIVO;0;1;304
+305;Permisos ;15;1;1;ACTIVO;0;1;305
+306;Peticiones;15;0;1;ACTIVO;1;1;306
+307;Perfil de los convocados;15;0;1;ACTIVO;1;1;307
+308;Plan ;15;1;1;ACTIVO;0;1;308
+309;Plan anticorrupción y de atención al ciudadano;15;1;1;ACTIVO;0;1;309
+310;Plan anual de mantenimiento preventivo ;15;1;1;ACTIVO;0;1;310
+311;Plan anual de vacantes;15;1;1;ACTIVO;0;1;311
+312;Plan de acción ;15;1;1;ACTIVO;0;1;312
+313;Plan de acción consolidado;15;1;1;ACTIVO;0;1;313
+314;Plan de acción de cada dependencia;15;1;1;ACTIVO;0;1;314
+315;Plan de auditoría;15;1;1;ACTIVO;0;1;315
+316;Plan de bienestar y estímulos ;15;1;1;ACTIVO;0;1;316
+317;Plan de contingencia y recuperación;15;1;1;ACTIVO;0;1;317
+318;Plan de desarrollo institucional de consolidación proyectos institucionales;15;1;1;ACTIVO;0;1;318
+319;Plan de emergencia;15;1;1;ACTIVO;0;1;319
+320;Plan de previsión de recursos humanos ;15;1;1;ACTIVO;0;1;320
+321;Plan de trabajo anual;15;1;1;ACTIVO;0;1;321
+322;Plan de transferencias;15;1;1;ACTIVO;0;1;322
+323;Plan estratégico de talento humano ;15;1;1;ACTIVO;0;1;323
+324;Plan indicativo ;15;1;1;ACTIVO;0;1;324
+325;Plan institucional de archivos – pinar;15;1;1;ACTIVO;0;1;325
+326;Planes de mejoramiento ;15;1;1;ACTIVO;0;1;326
+327;Planilla de comunicaciones enviadas;15;1;1;ACTIVO;0;1;327
+328;Planilla de comunicaciones internas y externas;15;1;1;ACTIVO;0;1;328
+329;Planilla de comunicaciones recibidas;15;1;1;ACTIVO;0;1;329
+330;Pliego de condiciones;15;1;1;ACTIVO;0;1;330
+331;Pliegos definitivos;15;1;1;ACTIVO;0;1;331
+332;Póliza;15;1;1;ACTIVO;0;1;332
+333;Poster;15;1;1;ACTIVO;0;1;333
+334;Programa de gestión de residuos peligrosos;15;1;1;ACTIVO;0;1;334
+335;Programa de gestión de residuos solidos;15;1;1;ACTIVO;0;1;335
+336;Programa de inducción y reinducción;15;1;1;ACTIVO;0;1;336
+337;Programa de uso y ahorro eficiente de agua ;15;1;1;ACTIVO;0;1;337
+338;Programa de uso y ahorro eficiente de la energía ;15;1;1;ACTIVO;0;1;338
+339;Programa de bienestar social;15;1;1;ACTIVO;0;1;339
+340;Programas;15;1;1;ACTIVO;0;1;340
+341;Propuesta y documentos legales;15;1;1;ACTIVO;0;1;341
+342;Protocolo medicina del trabajo del reintegro laboral;15;1;1;ACTIVO;0;1;342
+343;Protocolo medicina del trabajo examen ocupacional de ingreso periódico y de retiro ;15;1;1;ACTIVO;0;1;343
+344;Proyecto;15;1;1;ACTIVO;0;1;344
+345;Proyecto de pliego de condiciones;15;1;1;ACTIVO;0;1;345
+346;Pruebas decretadas en el etapa;15;1;1;ACTIVO;0;1;346
+347;Pruebas recopiladas;15;1;1;ACTIVO;0;1;347
+348;Publicación acto administrativo de quienes cumplen y no cumplen requisitos;15;1;1;ACTIVO;0;1;348
+349;Examen médico general;15;1;1;ACTIVO;0;1;349
+350;Publicación en el diario oficial;15;1;1;ACTIVO;0;1;350
+351;Queja ;15;1;1;ACTIVO;1;1;351
+352;Queja, oficio, comunicado sobre la conducta del servidor público;15;1;1;ACTIVO;1;1;352
+353;Recargos nocturnos y horas extras;15;1;1;ACTIVO;0;1;353
+354;Recibo a satisfacción ;15;1;1;ACTIVO;0;1;354
+355;Reclamos;15;0;1;ACTIVO;1;1;355
+356;Relación de elementos entregados para uso de los jurados en el procesos de elección;15;0;1;ACTIVO;1;1;356
+357;Registro de asistencia;15;1;1;ACTIVO;0;1;357
+358;Registro de inscripción ;15;1;1;ACTIVO;0;1;358
+359;Registro de publicación ;15;1;1;ACTIVO;0;1;359
+360;Registro de publicación en la web;15;1;1;ACTIVO;0;1;360
+361;Registro de votantes por cada mesa de votación;15;1;1;ACTIVO;0;1;361
+362;Registros civiles, registro de matrimonio, documentos de identidad beneficiarios;15;1;1;ACTIVO;0;1;362
+363;Reglamento de higiene y seguridad industrial;15;1;1;ACTIVO;0;1;363
+364;Relación de elementos entregados para uso de los jurados;15;1;1;ACTIVO;0;1;364
+365;Reporte de accidente de trabajo (furat);15;1;1;ACTIVO;0;1;365
+366;Reporte de accidentes incidentes;15;1;1;ACTIVO;0;1;366
+367;Reporte de nómina ;15;1;1;ACTIVO;0;1;367
+368;Reporte de pago en línea ;15;1;1;ACTIVO;0;1;368
+369;Reporte de visitas verificación cumplimiento de las políticas institucionales de salud ocupacional;15;1;1;ACTIVO;0;1;369
+370;Requerimientos contraloría;15;1;1;ACTIVO;0;1;370
+371;Requerimientos para ejecución de proyectos oficializado por el software de gestión documental o correo institucional;15;1;1;ACTIVO;0;1;371
+372;Resolución;15;1;1;ACTIVO;0;1;372
+373;Resolución de adopción;15;1;1;ACTIVO;0;1;373
+374;Resolución de convocatoria para la inscripción y elección;15;1;1;ACTIVO;0;1;374
+375;Resolución de declaratoria de desierta;15;1;1;ACTIVO;0;1;375
+376;Resolución de nombramiento ;15;1;1;ACTIVO;0;1;376
+377;Resolución designación delegados, jurados y definir número de mesas para la consulta;15;1;1;ACTIVO;0;1;377
+378;Resolución duplicado del diploma;15;1;1;ACTIVO;0;1;378
+379;Resolución fija número de mesas de votación, designa delegados y jurados electorales;15;1;1;ACTIVO;0;1;379
+380;Resolución necesidad del servicio;15;1;1;ACTIVO;0;1;380
+381;Resolución plan de capacitación pic para la vigencia;15;1;1;ACTIVO;0;1;381
+382;Resolución por la cual se acoge resultados y se declara al candidato electo como representante;15;1;1;ACTIVO;0;1;382
+383;Resolución por la cual se admiten la inscripción de aspirante;15;1;1;ACTIVO;0;1;383
+384;Resolución rectoral;15;1;1;ACTIVO;0;1;384
+385;Resolución rectoral de convocatoria reunión electoral  ;15;1;1;ACTIVO;0;1;385
+386;Resolución rectoral de convocatoria selección docentes de planta;15;1;1;ACTIVO;0;1;386
+387;Resolución rectoral por la cual se reconoce oficialmente la representación  ;15;1;1;ACTIVO;0;1;387
+388;Resolución reglamentación del proceso;15;1;1;ACTIVO;0;1;388
+389;Resoluciones de modificación;15;1;1;ACTIVO;0;1;389
+390;Respuesta;15;1;1;ACTIVO;0;1;390
+391;Respuesta a recursos;15;1;1;ACTIVO;0;1;391
+392;Resumen accidentes de trabajo de la arl anual ;15;1;1;ACTIVO;0;1;392
+393;Retención en la fuente;15;1;1;ACTIVO;0;1;393
+394;Seguimiento plan de mejoramiento;15;1;1;ACTIVO;0;1;394
+395;Sentencia;15;1;1;ACTIVO;0;1;395
+396;Situaciones administrativas ;15;1;1;ACTIVO;0;1;396
+397;Solicitud;15;1;1;ACTIVO;1;1;397
+398;Solicitud de avances plan de mejoramiento;15;1;1;ACTIVO;0;1;398
+399;Solicitud de convalidación ;15;1;1;ACTIVO;0;1;399
+400;Solicitud de información ;15;1;1;ACTIVO;0;1;400
+401;Solicitud de inscripción;15;1;1;ACTIVO;0;1;401
+402;Solicitud de transferencias ;15;1;1;ACTIVO;0;1;402
+403;Solicitud del plan de acción a las dependencias;15;1;1;ACTIVO;0;1;403
+404;Solicitud trámite de cesantías ;15;1;1;ACTIVO;0;1;404
+405;Solicitud y recibo de pago;15;1;1;ACTIVO;0;1;405
+406;Solicitudes ;15;1;1;ACTIVO;0;1;406
+407;Soportes;15;1;1;ACTIVO;0;1;407
+408;Soportes de los requisitos;15;1;1;ACTIVO;0;1;408
+409;Suscripción plan de mejoramiento;15;1;1;ACTIVO;0;1;409
+410;Tablas de control y acceso;15;1;1;ACTIVO;0;1;410
+411;Tablas de retención;15;1;1;ACTIVO;0;1;411
+412;Tarjeta profesional;15;1;1;ACTIVO;0;1;412
+413;Valoración egreso ;15;1;1;ACTIVO;0;1;413
+414;Valoración ingreso;15;1;1;ACTIVO;0;1;414
+415;Valoración periódica ;15;1;1;ACTIVO;0;1;415
+416;Variables indicadores;15;1;1;ACTIVO;0;1;416
+417;Verificación de requisitos;15;1;1;ACTIVO;0;1;417
+418;Verificación estado salas;15;1;1;ACTIVO;0;1;418
+419;Resolución rectoral de de admitidos y no admitidos;15;1;1;ACTIVO;0;1;419
+420;Consolidado de evaluación;15;1;1;ACTIVO;0;1;420
+421;Consolidado de resultados etapa evaluativa;15;1;1;ACTIVO;0;1;421
+422;Resolución rectoral de lista de elegibles;15;1;1;ACTIVO;0;1;422
+423;Oficios de solicitud de los monitores;15;1;1;ACTIVO;0;1;423
+424;Publicación de listado de monitores web;15;1;1;ACTIVO;0;1;424
+425;Oficio remisorio de relación monitores para afiliación arl;15;1;1;ACTIVO;0;1;425
+426;Carta de renuncia;15;1;1;ACTIVO;0;1;426
+427;Evaluación desempeño monitores;15;1;1;ACTIVO;0;1;427
+428;Suscripción del plan de mejoramiento;15;1;1;ACTIVO;0;1;428
+429;Evidencias avance o  cumplimiento del plan de mejoramiento;15;1;1;ACTIVO;0;1;429
+430;Guías de autoevaluación;15;1;1;ACTIVO;0;1;430
+431;Pei;15;1;1;ACTIVO;0;1;431
+432;Resolución de reintegro;15;1;1;ACTIVO;0;1;432
+433;Resolución de  homologaciones y el estudio de homologación;15;1;1;ACTIVO;0;1;433
+434;Resolución de  pruebas de suficiencia;15;1;1;ACTIVO;0;1;434
+435;Resolución de  curso especial;15;1;1;ACTIVO;0;1;435
+436;Resolución de transferencias;15;1;1;ACTIVO;0;1;436
+437;Resoluciones de validaciones;15;1;1;ACTIVO;0;1;437
+438;Ficha técnica de laboratorio;15;1;1;ACTIVO;0;1;438
+439;Cronograma de mantenimiento;15;1;1;ACTIVO;0;1;439
+440;Historial de mantenimiento, verificación y calibración;15;1;1;ACTIVO;0;1;440
+441;Manual general de bioseguridad;15;1;1;ACTIVO;0;1;441
+442;Control de materiales y equipos en prácticas  de laboratorio;15;1;1;ACTIVO;0;1;442
+443;Control deudas de materiales;15;1;1;ACTIVO;0;1;443
+444;Guías de prácticas de laboratorio;15;1;1;ACTIVO;0;1;444
+445;Consentimiento informado de evaluación multidisciplinaria;15;1;1;ACTIVO;0;1;445
+446;Evaluación de capacidad y potencia aeróbica;15;1;1;ACTIVO;0;1;446
+447;Hoja de vida de equipos, patrones y materiales de referencia;15;1;1;ACTIVO;0;1;447
+448;Historial de mantenimiento, verificación y calibración;15;1;1;ACTIVO;0;1;448
+449;Inventario de reactivos.XLS;15;1;1;ACTIVO;0;1;449
+450;Préstamo de equipos de laboratorio de electrónica y electricidad;15;1;1;ACTIVO;0;1;450
+451;Resolución rectoral de calendario y convocatoria al proceso de elección;15;1;1;ACTIVO;0;1;451
+452;Contenido programático;15;1;1;ACTIVO;0;1;452
+453;Publicidad;15;1;1;ACTIVO;0;1;453
+454;Proyecto educativo del programa pep;15;1;1;ACTIVO;0;1;454
+455;Autoevaluación para registro calificado;15;1;1;ACTIVO;0;1;455
+456;Planes de estudio;15;1;1;ACTIVO;0;1;456
+457;Documento maestro;15;1;1;ACTIVO;0;1;457
+458;Control de asistencia;15;1;1;ACTIVO;0;1;458
+459;Carta de presentación;15;1;1;ACTIVO;0;1;459
+460;Requerimientos;15;1;1;ACTIVO;0;1;460
+461;Actas de sustentación;15;1;1;ACTIVO;0;1;461
+462;Certificado icfes o saber 11;15;1;1;ACTIVO;0;1;462
+463;Fotocopia documento identidad;15;1;1;ACTIVO;0;1;463
+464;Fotocopia diploma de bachiller;15;1;1;ACTIVO;0;1;464
+465;Acta de grado de bachiller;15;1;1;ACTIVO;0;1;465
+466;Certificado de notas 10 y 11;15;1;1;ACTIVO;0;1;466
+467;Examen médico general;15;1;1;ACTIVO;0;1;467
+468;Registro civil de nacimiento;15;1;1;ACTIVO;0;1;468
+469;Fotocopia recibo servicio público;15;1;1;ACTIVO;0;1;469
+470;Desprendibles académicos;15;1;1;ACTIVO;0;1;470
+471;Hoja de matrícula html  - sistema integrado de gestión académico - siga;15;1;1;ACTIVO;0;1;471
+472;Recibo de pago de derecho de grado;15;1;1;ACTIVO;0;1;472
+473;Solicitud  motivada del grado individual;15;1;1;ACTIVO;0;1;473
+474;Seguimiento de egresados;15;1;1;ACTIVO;0;1;474
+475;Certificados de conducta;15;1;1;ACTIVO;0;1;475
+476;Inventario - xml;15;1;1;ACTIVO;0;1;476
+477;Carta de remisión;15;1;1;ACTIVO;0;1;477
+478;Listado de las universidades excel;15;1;1;ACTIVO;0;1;478
+479;Publicación;15;1;1;ACTIVO;0;1;479
+480;Autorización o licencia de uso de trabajos de grado;15;1;1;ACTIVO;0;1;480
+481;Trabajo de grado en software;15;1;1;ACTIVO;0;1;481
+482;Registro de oferentes y demandantes;15;1;1;ACTIVO;0;1;482
+483;Programación;15;1;1;ACTIVO;0;1;483
+484;Confirmación de asistencia;15;1;1;ACTIVO;0;1;484
+485;Memorias;15;1;1;ACTIVO;0;1;485
+486;Informe de memorias de calculo presupuestal;15;1;1;ACTIVO;0;1;486
+487;Conciliación bancaria;15;1;1;ACTIVO;0;1;487
+488;Extracto bancario;15;1;1;ACTIVO;0;1;488
+489;Libro auxiliar;15;1;1;ACTIVO;0;1;489
+490;Notas ajustes de contabilidad;15;1;1;ACTIVO;0;1;490
+491;Declaraciones de estampillas;15;1;1;ACTIVO;0;1;491
+492;Declaraciones de impuesto de renta;15;1;1;ACTIVO;0;1;492
+493;Declaraciones de industria y comercio;15;1;1;ACTIVO;0;1;493
+494;Programa mantenimiento correctivo;15;1;1;ACTIVO;0;1;494
+495;Programa mantenimiento preventivo;15;1;1;ACTIVO;0;1;495
+496;Informe de mantenimiento preventivo y correctivo;15;1;1;ACTIVO;0;1;496
+497;Acuerdo de pago cartera vencida;15;1;1;ACTIVO;0;1;497
+498;Pagares;15;1;1;ACTIVO;0;1;498
+499;Certificados de ingresos y retenciones;15;1;1;ACTIVO;0;1;499
+500;Comprobante;15;1;1;ACTIVO;0;1;500
+501;Solicitud del crédito educativo;15;1;1;ACTIVO;0;1;501
+502;Carta de certificación laboral;15;1;1;ACTIVO;0;1;502
+503;Cédula de ciudadanía del deudor y codeudor;15;1;1;ACTIVO;0;1;503
+504;Autorización para consulta reporte y procesamiento de datos financiero en la central de información cifin;15;1;1;ACTIVO;0;1;504
+505;Pagaré y la carta de instrucciones;15;1;1;ACTIVO;0;1;505
+506;Liquidación cursos especiales;15;1;1;ACTIVO;0;1;506
+507;Actas de entrega;15;1;1;ACTIVO;0;1;507
+508;Acta de recibido;15;1;1;ACTIVO;0;1;508
+509;Resoluciones de baja;15;1;1;ACTIVO;0;1;509
+510;Actas de reconocimiento del concepto técnico;15;1;1;ACTIVO;0;1;510
+511;Inventario de bajas;15;1;1;ACTIVO;0;1;511
+512;Plantillas aplicativo base de datos - software;15;1;1;ACTIVO;0;1;512
+513;Inventario en cd;15;1;1;ACTIVO;0;1;513
+514;Manual de almacén;15;1;1;ACTIVO;0;1;514
+515;Plan anual de adquisiciones;15;1;1;ACTIVO;0;1;515
+516;Constancias;15;1;1;ACTIVO;0;1;516
+517;Resumen analítico de investigación - rai;15;1;1;ACTIVO;0;1;517
+518;Convocatoria de participación en los proyectos;15;1;1;ACTIVO;0;1;518
+519;Ficha proyecto;15;1;1;ACTIVO;0;1;519
+520;Reporte de institulac;15;1;1;ACTIVO;0;1;520
+521;Testigo de la publicación;15;1;1;ACTIVO;0;1;521
+522;Remisión a la biblioteca de las publicaciones;15;1;1;ACTIVO;0;1;522
+523;Periódico institucional;15;1;1;ACTIVO;0;1;523
+524;Remisión a la biblioteca del periódico;15;1;1;ACTIVO;0;1;524
+525;Evaluación por pares externos;15;1;1;ACTIVO;0;1;525
+526;Hoja de vida;15;1;1;ACTIVO;0;1;526
+527;Planes estratégicos de talento humano programa de bienestar social;15;1;1;ACTIVO;0;1;527
+528;Planilla de aportes;15;1;1;ACTIVO;0;1;528
+529;Listado estudiantes a afiliar;15;1;1;ACTIVO;0;1;529
+530;Reporte afiliados;15;1;1;ACTIVO;0;1;530
+531;Registro de asistencia estudiantes talleres;15;1;1;ACTIVO;0;1;531
+532;Registro de asistencia docentes talleres;15;1;1;ACTIVO;0;1;532
+533;Registro de asistencia estudiantes tutorías personalizadas;15;1;1;ACTIVO;0;1;533
+534;Registro de asistencia ocupación tiempo libre;15;1;1;ACTIVO;0;1;534
+535;Prueba proyectiva aspirantes a ingreso;15;1;1;ACTIVO;0;1;535
+536;Prueba entrevista aspirantes ingreso;15;1;1;ACTIVO;0;1;536
+537;Entrevista premédico;15;1;1;ACTIVO;0;1;537
+538;Notificación escuela de padres;15;1;1;ACTIVO;0;1;538
+539;Solicitud de citas servicio de psicología;15;1;1;ACTIVO;0;1;539
+540;Ficha de atención psicológica;15;1;1;ACTIVO;0;1;540
+541;Remisiones de estudiantes por decanaturas;15;1;1;ACTIVO;0;1;541
+542;Citación a estudiantes;15;1;1;ACTIVO;0;1;542
+543;Plan de trabajo docente;15;1;1;ACTIVO;0;1;543
+544;Control y programación de grupos representativos y formativos;15;1;1;ACTIVO;0;1;544
+545;Notas de créditos académicos;15;1;1;ACTIVO;0;1;545
+546;Ballet clásico;15;1;1;ACTIVO;0;1;546
+547;Grupos representativos;15;1;1;ACTIVO;0;1;547
+548;Registro de jornadas de salud;15;1;1;ACTIVO;0;1;548
+549;Registro de inyectología ;15;1;1;ACTIVO;0;1;549
+550;Registro de atención en salud;15;1;1;ACTIVO;0;1;550
+551;Registro de atención médica;15;1;1;ACTIVO;0;1;551
+552;Orientación a estudiantes;15;1;1;ACTIVO;0;1;552
+553;Entrega de medicamentos;15;1;1;ACTIVO;0;1;553
+554;Tensión arterial;15;1;1;ACTIVO;0;1;554
+555;Toma de glucometría;15;1;1;ACTIVO;0;1;555
+556;Entrega de anticonceptivos;15;1;1;ACTIVO;0;1;556
+557;Asesoría en salud sexual y reproductiva;15;1;1;ACTIVO;0;1;557
+558;Registro de atención médica;15;1;1;ACTIVO;0;1;558
+559;Invitación a capacitaciones;15;1;1;ACTIVO;0;1;559
+560;Registro de asistencia;15;1;1;ACTIVO;0;1;560

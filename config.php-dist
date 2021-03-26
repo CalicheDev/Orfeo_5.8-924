@@ -1,0 +1,96 @@
+<?php 
+/**
+ * Archivo de Configuracion ejemplo 
+ *
+ * @category  
+ * @package      SGD Orfeo
+ * @subpackage   
+ * @author       Jaime E. Gomez H.
+ * @author       Skina Technologies SAS (http://www.skinatech.com)
+ * @license      GNU/GPL <http://www.gnu.org/licenses/gpl-2.0.html>
+ * @link         http://www.orfeolibre.org
+ * @version      SVN: $Id$
+ * @since        
+ */
+
+//############# Datos de Empresa instalada
+$entidad= "Skina Technologies";        //Acronimo de la empresa
+                                       //Nombre de la EmpresaCD
+$entidad_largo= 'Skina Technologies';  //Variable usada generalmente para los
+                                       // titulos en informes.
+$nit_entidad = '1111111111';           // Nit de la empresa
+$entidad_tel =  'PBX: +57 2262080';    //Telefono o PBX de la empresa.
+$entidad_contacto = "http://www.skinatech.com.co";      //URL de contacto
+$entidad_dir = "Carrera 64 #96-17, Bogotá, Colombia";   //Direccion 
+$pais = "Colombia";                    // Pais Empresa o Entidad
+$abreviatura = '';                     // Abreviatura para los radicados e
+                                       //identificar la empresa de la que viene
+
+//############# Servidor de Bases de datos
+$driver =   "postgres";                // Tipo BD: postgres, oci8, mssql, mysql
+$servidor="127.0.0.1";                 // Mejor direccion que localhost
+$servicio="orfeo_odb";
+$usuario="orfeo_usr";
+$contrasena="xxxxxx";
+$db = $servicio;
+$assoc = 1;   	// Identifica si las columnas van en mayuscula o minuscula
+                // el 1 aplica para todos los driver menos para MariaDB
+
+//#############  Servidor de correo Electronico
+$servidor_mail_imap="xxxx.mail.com";  //Servidor de consulta de correo
+$protocolo_mail="imaps";              // Protocolo e consulta correo ( imap  | pop3 )
+$puerto_mail_imap=993;                // Puerto de consulta de correo
+$servidor_mail_smtp="xxxx.mail.com";  // Servidor de Salida
+$protocolo_smtp = 'TLS'; 
+$puerto_mail_smtp=465;                // Puerto del servidor de Mail (25 | 587)
+$cuenta_mail="xxxx@xxx.com";          // Usuario de conexion
+$contrasena_mail="xxxxxx";            //  Contrasena
+
+//#############  Configuracion / Personalizacion Orfeo
+$menuAdicional = 0;           // 0 = Carpeta salida del radicador
+                              // >0 = Redirecciona a dependencia especificada
+$usua_perm_avaz = 1;          // Habilita la configuracion avanzada de usuarios
+$ambiente = "orfeo";          // Variable que indica el ambiente de trabajo:
+                              // valores pueden ser desarrollo,prueba,orfeo
+//Servidor que procesa los documentos
+$servProcDocs = "127.0.0.1:8000";
+
+$MODULO_RADICACION_DOCS_ANEXOS=1;
+$MODULO_ENVIOS = 2;
+
+//Color de Fondo de OrfeoGPL
+$colorFondo = "8cacc1";
+// Correo Contacto o Administrador del Sistema
+$administrador = "xxxxx@gmail.com";
+
+//Directorio de estilos a Usar... Si no se establece una Ruta el sistema usara
+//el que posee por Defecto en el directorio estilos.  
+//orfeo.css para usarlo cree una carpeta con su personalizacion y luego copie 
+//el archivo orfeo.css y cambie sus colores.
+$ESTILOS_PATH = "/estilos/orfeo38/";
+$ESTILOS_PATH2 = "/estilos/orfeo50/";
+$ESTILOS_PATH_ORFEO = "/estilos/orfeo.css";
+$logoSuperiorOrfeo=true;  //Logo orfeo en el header
+$imagenes = "imagenes";
+$imagenes2 = "/estilos/orfeo50/imagenes50/";
+$dependenciaPruebas= "998"; //Codigo dep pruebas, en consultas no tiene encuenta esta dep para listar radicados
+$dependenciaSalida = "999";
+$tipoRadicadoPqr = '4'; // Datos configuración para el formulario web pqrs 
+$longitud_codigo_dependencia = '3';
+$estructuraRad = 'y'; // variable que será utilizada para indicar como se va a construir el número de radicado.
+$fonodoacumulado = false;
+$menuOrfeoExpress = false; // Habilita las opciones de todos los modulos del sistema
+
+// Dependencia encargada de manejar las PQRs
+$depeRadicaFormularioWeb = str_pad("998",$longitud_codigo_dependencia,'0', STR_PAD_LEFT); 
+$entidad_depsal = str_pad("999",$longitud_codigo_dependencia,'0', STR_PAD_LEFT);//Guarda el codigo de la dependencia de salida por defecto al radicar dcto de salida
+$usuaRecibeWeb           = 1;  // Usuario que va a recepcionar los radicados web-pqr
+$secRadicaFormularioWeb  = "secr_tp4_998"; // Esta secuencia es para los consecutivos de PQR para pruebas 
+
+# ----   By Orfeo Express 
+$DIR_RAIZ='/var/www/html/$ambiente';
+#
+$ADODB_PATH="$DIR_RAIZ/adodb";
+$PEAR_PATH="$DIR_RAIZ/pear";
+$ADODB_CACHE_DIR="$DIR_RAIZ/bodega/tmp"; 
+?>
