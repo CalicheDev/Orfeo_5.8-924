@@ -1,12 +1,12 @@
 <?php
 include_once dirname(__DIR__) . '/db/conexion.php';
-include_once '/home/uceva/public_html/trunk/config.php';
+include_once dirname(__DIR__) . '/db/config.php';
 include_once (dirname(__DIR__) . '/functions/funciones.php');
 
 //CONFIGURAR config.php
 function recConfigOrfeo() {
     //$archivo_configurador = (ROOT_PATH.'db/config.php');
-    $fname = "/home/uceva/public_html/trunk/config.php"; //name/path of config file
+    $fname = "/Orfeo_5.8-924/instalacion/parametrizador/db/config.php"; //name/path of config file
     chmod($fname, 0777);
     $fhandle = fopen($fname, "r"); //Open for reading only place the file pointer at the beginning of the file.
     $content = fread($fhandle, filesize($fname)); //Read from file pointer onwards

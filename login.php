@@ -51,7 +51,7 @@ if (isset($_POST["drd"]))
 if (isset($_POST["autenticaPorLDAP"]))
     $autenticaPorLDAP = $_POST["autenticaPorLDAP"];
 
-$fechah = date("dmy") . "_" . time("hms");
+$fechah = date("Y-m-d H:i:s");
 
 $usua_nuevo = 3;
 $logo = "$url_raiz/logoEntidad.png";

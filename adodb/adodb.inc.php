@@ -406,6 +406,7 @@ if (!defined('_ADODB_LAYER')) {
             $this->_isPersistentConnection = false;
             if ($forceNew) {
                 if ($this->_nconnect($this->host, $this->user, $this->password, $this->database))
+                    //$this->conect->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
                     return true;
             } else {
                 if ($this->_connect($this->host, $this->user, $this->password, $this->database))

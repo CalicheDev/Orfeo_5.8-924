@@ -1,7 +1,7 @@
 
 <?php
 $ambiente = 'pruebas';
-include_once $_SERVER['DOCUMENT_ROOT'].'/'.$ambiente.'/instalacion/functions/funciones.php';
+include_once $_SERVER['DOCUMENT_ROOT'].'/'.$ambiente.'/instalacion/parametrizador/functions/funciones.php';
 include ($_SERVER['DOCUMENT_ROOT'].'/'.$ambiente.'/config.php');
 
 $dir = $_SERVER['DOCUMENT_ROOT'].'/'.$ambiente.'/config.php';

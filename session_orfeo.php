@@ -38,7 +38,7 @@ $correo = 'soporte@skinatech.com';
 if (!defined('ADODB_ASSOC_CASE'))
     define('ADODB_ASSOC_CASE', 1);
 $krd = strtoupper($krd);
-$fechah = date("Ymd") . "_" . time("hms");
+$fechah = date("Y-m-d H:i:s");
 $check = 1;
 $numeroa = 0;
 $numero = 0;

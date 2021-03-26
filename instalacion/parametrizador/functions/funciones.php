@@ -26,7 +26,7 @@ function createDatabases() {
     $query_alter_databases = "ALTER DATABASE " . $_POST['servicio'] . "  OWNER TO " . $_POST['usuario'] . ";";
 
     //Borramos base de datos producción si existiera.
-    $exec_query = @pg_query($query_drop_production) or die("ERROR AL BORRAR LA BASE DE DATOS : " . $_POST['servicio'] . pg_last_error());
+    $exec_query = ($query_drop_production) or die("ERROR AL BORRAR LA BASE DE DATOS : " . $_POST['servicio'] . pg_last_error());
     if ($query_drop_production) {
         echo '<div class="alert alert-success" role="alert">';
         echo '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>';

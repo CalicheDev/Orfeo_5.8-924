@@ -38,7 +38,11 @@ class ADODB_mysql extends ADOConnection {
 	var $clientFlags = 0;
 	var $substr = "substring";
 	var $nameQuote = '`';		/// string to use to quote identifiers and names
+
+		
 	
+
+
 	function ADODB_mysql() 
 	{			
 		if (defined('ADODB_EXTENSION')) $this->rsPrefix .= 'ext_';
@@ -330,12 +334,36 @@ class ADODB_mysql extends ADOConnection {
 		return "from_unixtime(unix_timestamp($date)+($dayFraction)*24*3600)";
 	}
 	
+
+	private $host = "localhost";
+		private $user = "root";
+		private $password = "";
+		private $db = "orfeodb";
+		private $conect;
+
+		public function __construct(){
+
+		$conectionString = "mysql:hos=".$this->host.";dbname=".$this->db.";charset=utf8";
+
+		try{
+
+			$this->conect = new PDO($conectionString,$this->user,$this->password);
+			$this->conect->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+			echo "Conexion exitosa";
+
+		}catch (Exception $e){
+			$this->conect =	'Imposible conectarse a la base de datos';
+			echo "ERROR: ".$e->getMessage();
+
+		}
+
+	 	}
 	// returns true or false
-	function _connect($argHostname, $argUsername, $argPassword, $argDatabasename)
+	function __construct($argHostname, $argUsername, $argPassword, $argDatabasename)
 	{
 		if (ADODB_PHPVER >= 0x4300)
-			$this->_connectionID = mysql_connect($argHostname,$argUsername,$argPassword,
-												$this->forceNewConnect,$this->clientFlags);
+			$this->_connectionID = new PDO($argHostname,$argUsername,$argPassword, $this->forceNewConnect,$this->clientFlags);
+
 		else if (ADODB_PHPVER >= 0x4200)
 			$this->_connectionID = mysql_connect($argHostname,$argUsername,$argPassword,
 												$this->forceNewConnect);
@@ -344,8 +372,12 @@ class ADODB_mysql extends ADOConnection {
 	
 		if ($this->_connectionID === false) return false;
 		if ($argDatabasename) return $this->SelectDB($argDatabasename);
+
+		$this->_connectionID->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 		return true;	
 	}
+
+
 	
 	// returns true or false
 	function _pconnect($argHostname, $argUsername, $argPassword, $argDatabasename)

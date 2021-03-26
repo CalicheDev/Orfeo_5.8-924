@@ -1,7 +1,7 @@
 <h1 class="page-header">Datos configuración</h1>
 <?php
-//$archivo_configurador = (ROOT_PATH . 'config.php');
-$archivo_configurador = '/home/uceva/public_html/trunk/config.php';
+$archivo_configurador = (ROOT_PATH . 'config.php');
+//$archivo_configurador = 'instalacion/parametrizador/db/config.php';
 //$archivo_configurador = '../config.php';
 
 echo '........... '.$archivo_configurador;
